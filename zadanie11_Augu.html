@@ -8,13 +8,15 @@
 <body>
   <div style="color:orange;font-size:50px;">
     <script language="JavaScript">
-      var liczba1=prompt("liczba1=","");
-      var liczba2=prompt("liczba2=","");
-      var suma;
-      var a=parseFloat(liczba1);
-      var b=parseFloat(liczba2);
-        suma=a+b
-    document.write("suma="+a+" + "+b+" = "+suma+"<br>");
+      var liczba1=prompt("D1=","");
+      var liczba2=prompt("D2=","");
+      var ile_sekund_Aug;
+      var D1_Aug=parseFloat(liczba1);
+      var D2_Aug=parseFloat(liczba2);
+
+ile_sekund_Aug=(D1_Aug-D2_Aug)*24*3600;
+    document.write("D1="+D1_Aug+"D2="+D2_AUG+"<br>");
+    document.write("ile_sekund="+ile_sekund_Aug+"<br>");
     </script>
   </div>
 </body>
