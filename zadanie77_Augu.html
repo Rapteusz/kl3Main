@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Strona z przyciskami</title>
+    <script>
+        function CKE() {
+            setTimeout(function() {
+                window.location.href = "https://cke.gov.pl/";
+            }, 4000);
+        }
+
+        function Gdansk() {
+            setTimeout(function() {
+                window.location.href = "https://www.gdansk.pl/";
+            }, 6000);
+        }
+
+        function Uczen() {
+            setTimeout(function() {
+                window.location.href = "https://loldle.org/";
+            }, 10000);
+        }
+
+        function odswiez() {
+            setTimeout(function() {
+                location.reload();
+            }, 8000);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="CKE()">Przycisk 1 </button>
+    <button onclick="Gdansk()">Przycisk 2 </button>
+    <button onclick="Uczen()">Przycisk 3 </button>
+    <button onclick="odswiez()">Przycisk 4 </button>
+</body>
+</html>
