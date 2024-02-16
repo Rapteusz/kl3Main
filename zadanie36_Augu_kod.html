@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function okno_zamknij_Aug()
+                {
+                window.close()
+                }
+        </script>
+    </head>
+    <body>
+        Kod zadanie 36 HTML<br>
+	 <textarea rows="31" cols="100" style="overflow:hidden" readonly>
+  
+<html>
+<body>
+    <div id="result" style="font-size: 50px;"></div>
+    <script>
+        var x = prompt("Podaj liczbę x=", "");
+        var a = parseFloat(x);
+        document.write("Czytana liczba x=" + a + "<br>");
+        if (a % 2 === 0) {
+            document.getElementById('result').style.color = "red";
+            document.getElementById('result').innerHTML = "Liczba jest parzysta";
+        } else {
+            document.getElementById('result').style.color = "silver";
+            document.getElementById('result').style.fontSize = "5em";
+            document.getElementById('result').innerHTML = "Liczba jest nieparzysta";
+        }
+    </script>
+</body>
+</html>
+
+</textarea>
+        <br><br>
+        <input type="button" value="zamknij okno" onclick="okno_zamknij_Aug()"/>
+    </body>
+</html>
