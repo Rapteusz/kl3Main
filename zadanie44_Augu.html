@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        var nazwisko = "Twoje nazwisko";
+        var imie = "Twoje imię";
+        var liczbaLiterNazwiska = nazwisko.length;
+        var ileRazyWyswietlic = (liczbaLiterNazwiska % 4) + 10;
+        var wielkoscLiter = (liczbaLiterNazwiska % 3) + 40;
+
+        for (var i = 1; i <= ileRazyWyswietlic; i++) {
+            if (i % 2 === 0) {
+                document.write("<p style='font-size: " + wielkoscLiter + "px;'>" + imie + "</p>");
+            } else {
+                document.write("<p style='font-size: " + wielkoscLiter + "px;'>" + nazwisko + "</p>");
+            }
+        }
+    </script>
+</body>
+</html>
